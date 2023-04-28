@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: none;
+    padding: 0;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+}
+.About-container{
+    width: 100vw;
+    height: 120vh;
+    background-color: black;
+    color: white;
+}
+.about-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.about-left{
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+.top{
+    font-size: 70px;
+    font-family: 'Alinea-serif';
+    text-align: left;
+}
+.bot{
+    margin-top: 3vh;
+    height: 85vh;
+    width: 49vw;
+    text-align: justify;
+    overflow-x: hidden;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    font-family: 'Lobster Two', cursive;
+}
+#cr{
+    height: 85vh;
+    width: 35vw;
+}
+.about-skin{
+    color: #FCAB7D;
+    font-size: 73px;
+}

@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+
+.mr{
+  margin-right: 5px;
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@font-face {
+  font-family: "Yustika";
+  src: url("./fonts/Yustika.woff2") format("woff2"),
+    url("./fonts/Yustika.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Alinea-serif";
+  src: url("./fonts/Alinea-Serif.woff") format("woff"),
+  url("./fonts/Alinea-Serif.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "bolden";
+  src: url("./fonts/bolden.woff2") format("woff2"),
+  url("./fonts/Bolden.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "folkin";
+  src: url("./fonts/Folkin.woff2") format("woff2"),
+  url("./fonts/Folkin.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arose";
+  src: url("./fonts/Arose-Regular.woff2") format("woff2"),
+  url("./fonts/Arose-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
